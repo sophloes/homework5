@@ -222,12 +222,12 @@ header{
   .pricing{
     align-items: flex-start;
   }
-  .gallery{
-    display: none;
-  }
-  .id gallery{
-    display: none;
-  }
+  #gallery{
+    display: none;
+  }
+  .gallery{
+    display: none;
+  }
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
