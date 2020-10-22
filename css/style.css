@@ -71,7 +71,7 @@ footer{
   animation-duration: 15s;
   /*animation-iteration-count: 1;*/
   animation-name: logo_wiggle;
-  -webkit-animation-name: logo_wiggle;
+  /*-webkit-animation-name: logo_wiggle;*/
 }
 
 /* Cards! */
@@ -238,9 +238,10 @@ header{
 /* remove background image, pay attention to footer, do media query*/
 @media screen and (prefers-reduced-motion: reduce) { 
 #logo{
-   -webkit-animation-name: logo_wiggle; 
-   animation-name: logo_wiggle;
-   -webkit-animation-duration: 0s;
-   animation-duration: 0s;
+  animation: none;
+  /*-webkit-animation-name: logo_wiggle;
+  animation-name: logo_wiggle;
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;*/
 }
 }
